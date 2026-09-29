@@ -1,0 +1,12 @@
+{
+  "name": "ResQ - Emergency-Care Coordination Demo",
+  "description": "India-focused emergency-care coordination concept demo for concise patient handover, emergency service dialing guidance, and demo responder timeline sync.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

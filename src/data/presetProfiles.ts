@@ -1,0 +1,88 @@
+import { FamilyProfile } from '../types';
+
+export const INITIAL_PRESET_PROFILES: FamilyProfile[] = [
+  {
+    id: 'syn-sharma-62',
+    displayName: 'Ramesh Sharma',
+    ageRange: '60–65 years (Elderly)',
+    bloodGroup: 'B Positive (B+)',
+    emergencyContacts: [
+      {
+        id: 'c1',
+        name: 'Sunita Sharma',
+        relationship: 'Spouse',
+        phone: '+91 98450 12345',
+      },
+      {
+        id: 'c2',
+        name: 'Vikram Sharma',
+        relationship: 'Son (Primary Carer)',
+        phone: '+91 99001 87654',
+      },
+    ],
+    conditions: ['Type 2 Diabetes Mellitus', 'Hypertension (mild)', 'Occasional angina on exertion'],
+    allergies: ['Penicillin (reported severe hives in 2018)', 'Sulfa drugs (nausea)'],
+    medicines: ['Metformin 500mg (twice daily)', 'Amlodipine 5mg (morning)', 'Aspirin 75mg (after lunch)'],
+    insuranceProvider: 'Star Health & Allied Insurance',
+    insurancePolicyRef: 'Family Health Optima #SH-8921-X3 (Self-entered)',
+    hospitalPreference: 'Manipal Hospital, HAL Airport Road, Bengaluru',
+    isSyntheticPreset: true,
+    notes: 'Keep spectacles nearby. Speaks Kannada and Hindi comfortably.',
+  },
+  {
+    id: 'syn-nair-34',
+    displayName: 'Priya Nair',
+    ageRange: '30–35 years (Adult)',
+    bloodGroup: 'O Positive (O+)',
+    emergencyContacts: [
+      {
+        id: 'c3',
+        name: 'Arjun Nair',
+        relationship: 'Brother',
+        phone: '+91 97401 54321',
+      },
+      {
+        id: 'c4',
+        name: 'Dr. Meenakshi (Family Friend)',
+        relationship: 'Physician Friend',
+        phone: '+91 94480 99887',
+      },
+    ],
+    conditions: ['Known Adult Asthma (moderate)', 'Migraines with visual aura'],
+    allergies: ['NSAIDs / Ibuprofen (causes bronchospasm)', 'Dust / pollen'],
+    medicines: ['Budesonide + Formoterol inhaler (as needed)', 'Montelukast 10mg (night)'],
+    insuranceProvider: 'HDFC ERGO General Insurance',
+    insurancePolicyRef: 'Optima Restore #HD-55410-B (Self-entered)',
+    hospitalPreference: 'Apollo Hospitals, Bannerghatta Road, Bengaluru',
+    isSyntheticPreset: true,
+    notes: 'Carries rescue inhaler in handbag.',
+  },
+  {
+    id: 'syn-patel-08',
+    displayName: 'Aarav Patel',
+    ageRange: '8–10 years (Child)',
+    bloodGroup: 'A Positive (A+)',
+    emergencyContacts: [
+      {
+        id: 'c5',
+        name: 'Neha Patel',
+        relationship: 'Mother',
+        phone: '+91 98200 44332',
+      },
+      {
+        id: 'c6',
+        name: 'Kunal Patel',
+        relationship: 'Father',
+        phone: '+91 98200 77665',
+      },
+    ],
+    conditions: ['Childhood Eczema', 'History of febrile convulsions at age 3'],
+    allergies: ['Peanuts (severe anaphylaxis reported)', 'Shellfish'],
+    medicines: ['Cetirizine 5ml syrup (as prescribed for allergic flares)'],
+    insuranceProvider: 'ICICI Lombard Health Shield',
+    insurancePolicyRef: 'Complete Health Insurance #IC-7709-P1 (Self-entered)',
+    hospitalPreference: 'Rainbow Children’s Hospital, Marathahalli, Bengaluru',
+    isSyntheticPreset: true,
+    notes: 'EpiPen junior prescribed for school emergency kit.',
+  },
+];
